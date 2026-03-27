@@ -1,6 +1,7 @@
 ---
 name: coin-research
 description: Single cryptocurrency research workflow using cmc-cli. Use when the user asks to research, investigate, or get a comprehensive overview of a specific crypto asset. Produces a structured research report covering fundamentals, price action, market structure, sentiment, and bull/bear assessment.
+metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CoinMarketCap-CLI"}}
 ---
 
 # Coin Research (cmc-cli)
