@@ -2,7 +2,7 @@
 name: openclaw-cmc-market-report
 description: Use for OpenClaw-only crypto market report requests such as market report, market snapshot, crypto morning brief, how's crypto today, or today's crypto market summary; produce the fixed report format using shipped cmc commands only.
 version: 0.1.0
-metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CMC-CLI"}}
+metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CoinMarketCap-CLI"}}
 ---
 
 # OpenClaw CMC Market Report
@@ -12,7 +12,7 @@ Use this skill only for OpenClaw-driven market report workflows. Keep it aligned
 ## Prerequisites
 
 This skill requires:
-- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/coinmarketcap-official/CMC-CLI) for installation options
+- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/coinmarketcap-official/CoinMarketCap-CLI) for installation options
 - `CMC_API_KEY` available to OpenClaw via skill config or session environment
 
 If either dependency is missing, the skill will not function.
