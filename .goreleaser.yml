@@ -1,0 +1,44 @@
+version: 2
+
+project_name: cmc
+
+builds:
+  - binary: cmc
+    main: .
+    ldflags:
+      - -s -w -X github.com/coinmarketcap/coinmarketcap-cli/cmd.version={{.Version}} -X github.com/coinmarketcap/coinmarketcap-cli/cmd.commit={{.Commit}} -X github.com/coinmarketcap/coinmarketcap-cli/cmd.date={{.Date}}
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+
+archives:
+  - formats:
+      - tar.gz
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        formats:
+          - zip
+
+checksum:
+  name_template: "checksums.txt"
+
+changelog:
+  sort: asc
+
+brews:
+  - repository:
+      owner: coinmarketcap-official
+      name: Homebrew-CoinMarketCap-CLI
+      token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
+    homepage: https://github.com/coinmarketcap-official/CoinMarketCap-CLI
+    description: CoinMarketCap CLI - cryptocurrency data at your fingertips
+    license: MIT
+    install: |
+      bin.install "cmc"
+    test: |
+      system "#{bin}/cmc", "version"

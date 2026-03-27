@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw + CMC CLI"
+  short_description: "OpenClaw entrypoint for the CMC CLI skill"
+  default_prompt: "Use $openclaw-cmc-cli when OpenClaw needs a thin entrypoint to the core $cmc-cli skill."
