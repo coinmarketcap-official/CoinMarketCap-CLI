@@ -1,6 +1,16 @@
 ---
 name: cmc-cli
 description: Use when working with the CoinMarketCap CLI, choosing shipped commands, or answering how to use cmc in scripts, TUI flows, or agent workflows.
+version: 0.1.0
+metadata:
+  requires:
+    bins:
+      - cmc
+    env:
+      - CMC_API_KEY
+  install: |
+    go install github.com/coinmarketcap/coinmarketcap-cli@latest
+    mv "$(go env GOPATH)/bin/coinmarketcap-cli" "$(go env GOPATH)/bin/cmc"
 ---
 
 # CMC CLI
@@ -11,20 +21,12 @@ description: Use when working with the CoinMarketCap CLI, choosing shipped comma
 
 ## Prerequisites
 
-Before running any `cmc` command, ensure the CLI is installed and authenticated.
+This skill requires:
+- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/coinmarketcap-official/CoinMarketCap-CLI) for installation options
+- `CMC_API_KEY` environment variable set with a valid CoinMarketCap API key
+- Authentication completed via `cmc auth`
 
-```sh
-# Install cmc from source (skips if already present)
-if ! command -v cmc &>/dev/null; then
-  go install github.com/coinmarketcap/coinmarketcap-cli@latest
-  mv "$(go env GOPATH)/bin/coinmarketcap-cli" "$(go env GOPATH)/bin/cmc"
-fi
-
-# Authenticate (requires CMC_API_KEY in environment)
-cmc auth
-```
-
-If `CMC_API_KEY` is not set in the environment, ask the user to provide it before proceeding.
+If either dependency is missing, the skill will not function.
 
 ## Quick Reference
 
