@@ -1,0 +1,39 @@
+# Binaries
+cmc
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+config.yaml
+
+# Local planning artifacts
+test_plan.md

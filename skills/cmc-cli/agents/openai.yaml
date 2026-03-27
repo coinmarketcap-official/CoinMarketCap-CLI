@@ -1,0 +1,4 @@
+interface:
+  display_name: "CMC CLI"
+  short_description: "CoinMarketCap CLI command selection and output contracts"
+  default_prompt: "Use $cmc-cli to choose the right CoinMarketCap CLI command, identity flag, output mode, and agent-friendly workflow."

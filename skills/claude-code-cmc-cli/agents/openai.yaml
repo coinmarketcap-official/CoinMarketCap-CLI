@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Code + CMC CLI"
+  short_description: "Claude Code entrypoint for the CMC CLI skill"
+  default_prompt: "Use $claude-code-cmc-cli when Claude Code needs a thin entrypoint to the core $cmc-cli skill."
