@@ -17,8 +17,6 @@ This skill requires:
 
 If either dependency is missing, the skill will not function.
 
-Do not run package-manager installs, `go install`, or local credential setup from inside this skill. If `cmc` or `CMC_API_KEY` is missing, stop and report the missing requirement.
-
 ## Trigger
 
 Apply when the request matches or clearly implies:
@@ -61,7 +59,6 @@ Always output these sections in this order:
 
 ## Failure Handling
 
-- If `cmc` is unavailable or `CMC_API_KEY` is missing, stop immediately and report the missing requirement.
 - If a command fails, return the affected section with a short partial note instead of dropping the whole report.
 - If a command returns incomplete data, say what is missing, use the available subset, and continue to the next section.
 - If BTC/ETH data is unavailable, state that explicitly and still complete the remaining sections.
