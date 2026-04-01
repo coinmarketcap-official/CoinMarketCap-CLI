@@ -1,11 +1,12 @@
 ---
-name: coin-research
+name: coin-crypto-research
 description: >-
   Coin research and crypto token analysis with CoinMarketCap (CMC) CLI.
-  Deep-dive any coin — price, market cap, volume, on-chain stats, historical
-  OHLCV, trading pairs, news sentiment, and bull/bear assessment. Use when
-  researching a coin, analyzing a specific cryptocurrency, investigating a
-  token, or producing a structured crypto research report.
+  Deep-dive any coin or crypto — price, market cap, volume, on-chain stats,
+  historical OHLCV, trading pairs, news sentiment, and bull/bear assessment.
+  Use when researching a coin, analyzing a specific cryptocurrency or crypto
+  project, investigating a token, or producing a structured crypto research
+  report.
 metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CoinMarketCap-CLI"}}
 ---
 
