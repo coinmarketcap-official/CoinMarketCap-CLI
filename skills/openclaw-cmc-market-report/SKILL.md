@@ -1,6 +1,10 @@
 ---
 name: openclaw-cmc-market-report
-description: Use for OpenClaw-only crypto market report requests such as market report, market snapshot, crypto morning brief, how's crypto today, or today's crypto market summary; produce the fixed report format using shipped cmc commands only.
+description: >-
+  Daily coin market report and crypto snapshot via CoinMarketCap (CMC) CLI.
+  Covers BTC and ETH prices, top coin gainers and losers, trending tokens,
+  and latest crypto news. Use for coin market report, morning brief, market
+  summary, or when asking how's crypto today.
 version: 0.1.0
 metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CoinMarketCap-CLI"}}
 ---
