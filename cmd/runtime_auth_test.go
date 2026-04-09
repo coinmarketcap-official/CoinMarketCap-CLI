@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 	"github.com/stretchr/testify/require"
 )
 

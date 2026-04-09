@@ -1,6 +1,6 @@
 package main
 
-import "github.com/coinmarketcap/coinmarketcap-cli/cmd"
+import "github.com/openCMC/CoinMarketCap-CLI/cmd"
 
 func main() {
 	cmd.Execute()

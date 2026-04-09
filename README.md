@@ -39,10 +39,10 @@ Homebrew and the shell installer are the primary paths.
 
 ```sh
 # Homebrew
-brew install coinmarketcap-official/CoinMarketCap-CLI/cmc
+brew install openCMC/CoinMarketCap-CLI/cmc
 
 # Shell installer (defaults to ~/.local/bin)
-curl -sSfL https://raw.githubusercontent.com/coinmarketcap-official/CoinMarketCap-CLI/main/install.sh | sh
+curl -sSfL https://raw.githubusercontent.com/openCMC/CoinMarketCap-CLI/main/install.sh | sh
 ```
 
 If `cmc` is not on your `PATH` after the shell installer:
@@ -54,7 +54,7 @@ export PATH="$HOME/.local/bin:$PATH"
 Build from source if you want the binary directly from the repository:
 
 ```sh
-git clone git@github.com:coinmarketcap-official/CoinMarketCap-CLI.git
+git clone git@github.com:openCMC/CoinMarketCap-CLI.git
 cd CoinMarketCap-CLI
 go build -o ./cmc .
 ./cmc version

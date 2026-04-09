@@ -6,7 +6,7 @@ builds:
   - binary: cmc
     main: .
     ldflags:
-      - -s -w -X github.com/coinmarketcap/coinmarketcap-cli/cmd.version={{.Version}} -X github.com/coinmarketcap/coinmarketcap-cli/cmd.commit={{.Commit}} -X github.com/coinmarketcap/coinmarketcap-cli/cmd.date={{.Date}}
+      - -s -w -X github.com/openCMC/CoinMarketCap-CLI/cmd.version={{.Version}} -X github.com/openCMC/CoinMarketCap-CLI/cmd.commit={{.Commit}} -X github.com/openCMC/CoinMarketCap-CLI/cmd.date={{.Date}}
     goos:
       - linux
       - darwin
@@ -32,10 +32,10 @@ changelog:
 
 brews:
   - repository:
-      owner: coinmarketcap-official
+      owner: openCMC
       name: Homebrew-CoinMarketCap-CLI
       token: "{{ .Env.HOMEBREW_TAP_TOKEN }}"
-    homepage: https://github.com/coinmarketcap-official/CoinMarketCap-CLI
+    homepage: https://github.com/openCMC/CoinMarketCap-CLI
     description: CoinMarketCap CLI - cryptocurrency data at your fingertips
     license: MIT
     install: |

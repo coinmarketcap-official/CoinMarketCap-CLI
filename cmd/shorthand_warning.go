@@ -3,7 +3,7 @@ package cmd
 import (
 	"strings"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
 )
 
 func warnAutoPickedSymbol(symbol string, asset api.ResolvedAsset) {

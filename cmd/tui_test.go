@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/tui"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/tui"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/stretchr/testify/require"

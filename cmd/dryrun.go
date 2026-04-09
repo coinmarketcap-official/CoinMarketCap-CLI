@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 	"github.com/spf13/cobra"
 )
 

@@ -9,7 +9,7 @@ metadata:
     env:
       - CMC_API_KEY
   install: |
-    go install github.com/coinmarketcap/coinmarketcap-cli@latest
+    go install github.com/openCMC/CoinMarketCap-CLI@latest
     mv "$(go env GOPATH)/bin/coinmarketcap-cli" "$(go env GOPATH)/bin/cmc"
 ---
 
@@ -20,7 +20,7 @@ Use this as a thin entrypoint for Claude Code. Do not duplicate the CMC CLI refe
 ## Prerequisites
 
 This skill requires:
-- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/coinmarketcap-official/CoinMarketCap-CLI) for installation options
+- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/openCMC/CoinMarketCap-CLI) for installation options
 - `CMC_API_KEY` environment variable set with a valid CoinMarketCap API key
 - Authentication completed via `cmc auth`
 

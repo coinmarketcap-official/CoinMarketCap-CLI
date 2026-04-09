@@ -1,4 +1,4 @@
-module github.com/coinmarketcap/coinmarketcap-cli
+module github.com/openCMC/CoinMarketCap-CLI
 
 go 1.26.0
 

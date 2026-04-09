@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/tui"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/tui"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/spf13/cobra"

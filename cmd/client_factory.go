@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 )
 
 // userAgent is the User-Agent header sent with all API requests.

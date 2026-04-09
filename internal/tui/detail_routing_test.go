@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 
 	tea "github.com/charmbracelet/bubbletea"
 )

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
 
 	"github.com/stretchr/testify/require"
 )

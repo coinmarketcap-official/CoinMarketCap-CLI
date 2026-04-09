@@ -2,9 +2,9 @@
 set -e
 
 # CoinMarketCap CLI installer
-# Usage: curl -sSfL https://raw.githubusercontent.com/coinmarketcap-official/CoinMarketCap-CLI/main/install.sh | sh
+# Usage: curl -sSfL https://raw.githubusercontent.com/openCMC/CoinMarketCap-CLI/main/install.sh | sh
 
-REPO="coinmarketcap-official/CoinMarketCap-CLI"
+REPO="openCMC/CoinMarketCap-CLI"
 BINARY="cmc"
 if [ -n "${INSTALL_DIR:-}" ]; then
   INSTALL_DIR="$INSTALL_DIR"

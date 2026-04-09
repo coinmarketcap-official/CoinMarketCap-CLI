@@ -7,7 +7,7 @@ description: >-
   Use when researching a coin, analyzing a specific cryptocurrency or crypto
   project, investigating a token, or producing a structured crypto research
   report.
-metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/coinmarketcap-official/CoinMarketCap-CLI"}}
+metadata: {"openclaw":{"requires":{"bins":["cmc"],"env":["CMC_API_KEY"]},"primaryEnv":"CMC_API_KEY","homepage":"https://github.com/openCMC/CoinMarketCap-CLI"}}
 ---
 
 # Coin Research (cmc-cli)
@@ -17,7 +17,7 @@ Structured single-coin research using the `cmc` CLI. Derives its analytical fram
 ## Prerequisites
 
 This skill requires:
-- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/coinmarketcap-official/CoinMarketCap-CLI) for installation options
+- `cmc` CLI installed and available on PATH — see [CoinMarketCap CLI](https://github.com/openCMC/CoinMarketCap-CLI) for installation options
 - `CMC_API_KEY` available to Claude via the session environment
 
 If either dependency is missing, stop and report the missing requirement.

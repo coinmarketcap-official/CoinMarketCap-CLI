@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/export"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/export"
 
 	"github.com/spf13/cobra"
 )

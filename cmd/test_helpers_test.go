@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/api"
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/api"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

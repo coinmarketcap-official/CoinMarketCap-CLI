@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coinmarketcap/coinmarketcap-cli/internal/config"
+	"github.com/openCMC/CoinMarketCap-CLI/internal/config"
 )
 
 const (

@@ -6,7 +6,7 @@
 
 Recently shipped data commands include `metrics`, `news`, `pairs <asset>`, `price --with-info`, and `price --with-chain-stats`. Keep README examples and command docs aligned with those shipped behaviors.
 
-Public release source is `coinmarketcap-official/CoinMarketCap-CLI`. Do not reintroduce legacy personal forks or `coinmarketcap/*` as the primary release target in docs.
+Public release source is `openCMC/CoinMarketCap-CLI`. Do not reintroduce legacy personal forks or `coinmarketcap/*` as the primary release target in docs.
 
 Repo-distributed skills live under `skills/`:
 
@@ -41,7 +41,7 @@ go build -o cmc .
 go test -race ./...
 ```
 
-For source installs, clone `git@github.com:coinmarketcap-official/CoinMarketCap-CLI.git` and use `go build ./...` or `go install ./...` from the repo root.
+For source installs, clone `git@github.com:openCMC/CoinMarketCap-CLI.git` and use `go build ./...` or `go install ./...` from the repo root.
 
 ## Project Structure
 
